@@ -19,8 +19,10 @@ namespace Algorithm_Tri
                     return new Tri_insertion();
                  case 3:
                     return new Tri_selection();
-                 //case 4:
-                    //return new Tri_fusion();
+                case 4:
+                    return new Tri_rapide();
+                case 5:
+                    return new Tri_fusion();
                 default:
                     Console.WriteLine("Choix invalide!");
                     return null;
